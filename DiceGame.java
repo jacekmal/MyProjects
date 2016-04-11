@@ -130,7 +130,7 @@ public class DiceGame {
 			}
 			
 			
-			
+		//printing each player score	
 		for(int i = 0; i < playerScores.length; i++){
 			System.out.printf("Player %d: %s points \t", i+1, playerScores[i]);
 		}
