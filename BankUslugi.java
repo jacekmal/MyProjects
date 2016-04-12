@@ -9,6 +9,7 @@ public class BankUslugi {
 	Scanner input = new Scanner(System.in);
 	static int money = 0;
 	static int moneyOnDeposit = 0;
+	//future improvement
 	public boolean checkPin(int a){
 		if(a == 1234){
 			return true;
@@ -17,7 +18,7 @@ public class BankUslugi {
 			return false;
 		}
 	}
-	
+	//future improvement
 	public boolean checkNumberAcc(String a){
 		if(a == "1234123412341234"){
 			return true;
