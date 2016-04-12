@@ -9,8 +9,7 @@ public class Uzytkownik extends BankUslugi {
 		Scanner input = new Scanner(System.in);
 		int exit = 1;
 		
-		getConnection();
-		
+		//Menu loop
 		while(exit != 0){
 		Uzytkownik jacek = new Uzytkownik();
 		System.out.println();
